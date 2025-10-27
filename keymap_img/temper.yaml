@@ -136,7 +136,7 @@ layers:
     - VOL DN
     - VOL UP
     - OUT USB
-    - {t: ▽, type: trans}
+    - '&studio_unlock'
     - F7
     - F8
     - F9
