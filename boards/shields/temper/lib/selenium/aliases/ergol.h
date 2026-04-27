@@ -6,11 +6,11 @@
 
 #define X_UNDO  &kp CMD(Z)
 #define X_CUT   &kp CMD(X)
-//#define X_COPY  &kp CMD(W)
-#define X_COPY  &kp CMD(C)
+#define X_COPY  &kp CMD(W)
+//#define X_COPY  &kp CMD(C)
 #define X_PASTE &kp CMD(V)
-//#define X_REDO  &kp CMD(P)
-#define X_REDO  &kp CMD(Y)
+#define X_REDO  &kp CMD(P)
+//#define X_REDO  &kp CMD(Y)
 
 #define X_CLOSE &kp CMD(T)
 #define X_SAVE  &kp CMD(S)
