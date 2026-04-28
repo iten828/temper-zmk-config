@@ -19,13 +19,13 @@
 
 #if defined HT_HOME_ROW_MODS || defined HT_TWO_THUMB_KEYS
 //  #define HRM_S &hrm LGUI S
-  #define HRM_FR_A &hrm LCTL FR_A
+  #define HRM_FR_A &hrm LSHIFT FR_A
   #define HRM_E &hrm LCTL E
   #define HRM_N &hrm LALT N
   #define HRM_R &hrm LALT R
   #define HRM_T &hrm RCTL T
   #define HRM_I &hrm RGUI I
-  #define HRM_Z &hrm LSHIFT Z 
+  #define HRM_U &hrm LSHIFT FR_U 
   //test for gaming layer --TODO
   #define HRM_GA &hrm LSHIFT A
   #define HRM_GZ &hrm LCTL   Z
