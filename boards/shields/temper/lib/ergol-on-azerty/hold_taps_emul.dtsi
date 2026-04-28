@@ -116,15 +116,15 @@
   #define EL_RTHUMB_TUCK   EL_RTHUMB_REACH
 #endif
 
-#define EL_X_UNDO  &kp CMD(Z)
+#define EL_X_UNDO  &kp CMD(W)
 #define EL_X_CUT   &kp CMD(X)
 #define EL_X_COPY  &kp CMD(C)
 #define EL_X_PASTE &kp CMD(V)
 #define EL_X_REDO  &kp CMD(Y)
 
-#define EL_X_CLOSE &kp CMD(W)
+#define EL_X_CLOSE &kp CMD(Z)
 #define EL_X_SAVE  &kp CMD(S)
-#define EL_X_ALL   &kp CMD(A)
+#define EL_X_ALL   &kp CMD(Q)
 
 //#define EZ_SL(layer)  bsl (layer) (layer)
 //#define EZ_SK(mod)    bsk (mod) (mod)
