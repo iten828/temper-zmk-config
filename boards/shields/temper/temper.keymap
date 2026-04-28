@@ -227,7 +227,6 @@
     //                -- On shifte les touches 1 à 1 plutôt que d’utiliser le modifieur shift global. 
     //                -- Ça permet d’avoir une
     //                -- meilleure gestion du shift sur les couches sym et navnum. Je n’ai pas su faire autrement.
-…
     sergol-layer {
             label = "Shift";
             display-name = "Shift";
