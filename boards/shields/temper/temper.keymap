@@ -200,7 +200,18 @@
         };
     // Ergo-l over Windows Azerty ----------------------------------------------------------------------------------
     // 7. Ergol over Windows azerty layer --
-    //                                    --
+    //                                    -- Configuré en mode HT_HOME_ROW_MODS
+    //                                    -- les autres modes n’ont pas été testé et nécessitent encore du travail.
+    //
+    //                                    -- Le shift HRM est activé, car c’est le seul moyen d’avoir shift pour 
+    //                                    -- certains raccourci clavier (exemple shift + clic). Shift n’est pas
+    //                                    -- un vrai modifieur global mais active des layers du fait des limitations
+    //                                    -- inhérentes à l’émulation. On n’a donc plus de vrai modifieur shift global
+    //                                    -- sur la touche shift.
+    //                                    -- Les raccouris shift + enter, shift + numnav ou shift + sym fonctionnent
+    //                                    -- avec la touche shift
+    //                                    -- Pour les autres, il faut passer par le shift en HRM.
+    //                                    -- exemple: shift+clic, shift+suppr, …
     ergol-layer {
             label = "Ergo-l";
             display-name = "Ergo-l";
@@ -216,9 +227,7 @@
     //                -- On shifte les touches 1 à 1 plutôt que d’utiliser le modifieur shift global. 
     //                -- Ça permet d’avoir une
     //                -- meilleure gestion du shift sur les couches sym et navnum. Je n’ai pas su faire autrement.
-    //                -- Note: attention, est-ce que le fait de ne plus avoir accès au modifieur shift global
-    //                -- ne risque pas de poser des problèmes en cas d’utilisation de shift dans un raccourci clavier ?
-    //                -- (le shift-enter est géré). Dans ce cas, ajouter shift en HRM serait une solution.
+…
     sergol-layer {
             label = "Shift";
             display-name = "Shift";
