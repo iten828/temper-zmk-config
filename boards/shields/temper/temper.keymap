@@ -211,7 +211,7 @@
     //                                    -- Les raccouris shift + enter, shift + numnav ou shift + sym fonctionnent
     //                                    -- avec la touche shift
     //                                    -- Pour les autres, il faut passer par le shift en HRM.
-    //                                    -- exemple: shift+clic, shift+suppr, …
+    //                                    -- exemple: shift+clic …
     ergol-layer {
             label = "Ergo-l";
             display-name = "Ergo-l";
