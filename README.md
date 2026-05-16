@@ -8,4 +8,5 @@ It uses:
 
 • an [Ergo-L](https://ergol.org/) optional emulation for Windows with azerty. This is usefull and the only solution for Ergo-L users who don’t have permissions to add and use the Ergo-L layout drivers on the PC they are using (typically on a locked business laptop).
 
-![Temper Keymap](temper.jpg)
+![Temper metal](temper.jpg)
+![Temper metal](temper2.jpg)
